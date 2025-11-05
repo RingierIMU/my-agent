@@ -1,13 +1,17 @@
 # my-agent
-
 A workshop project for building a custom CLI agent using [Fast-Agent](https://fast-agent.ai/).
 
 The objective is to build an agent which is capable of reading and writing files in the local file system, execute commands in the terminal, and use web search to gather information.
 
 Implement the agent using the Fast-Agent framework and Claude Code's architecture as the inspiration to create a custom agent that can act as a partner for software development tasks and automation.
 
-# installation
+# setup repo
+Click `Use this template` and `Create a new repository` to create a copy of this repo under your username; then checkout the repo:
+```bash
+git checkout https://github.com/myusername/my-agent.git
+```
 
+# installation
 First install the package manager [uv](https://docs.astral.sh/uv/).
 
 macOS and Linux:
