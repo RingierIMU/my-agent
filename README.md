@@ -50,6 +50,7 @@ This will start the agent, which will interact with you via the command line.
 - [Desktop Commander](https://desktopcommander.app/)
 - [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)
 - [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)
+- [Public APIs](https://github.com/public-apis/public-apis)
 
 # hints
 
