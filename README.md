@@ -1,6 +1,6 @@
 # my-agent
 
-A workshop project for building a simple CLI agent using [Fast-Agent](https://fast-agent.ai/).
+A workshop project for building a custom CLI agent using [Fast-Agent](https://fast-agent.ai/).
 
 The objective is to build an agent which is capable of reading and writing files in the local file system, execute commands in the terminal, and use web search to gather information.
 
