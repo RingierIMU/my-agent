@@ -9,6 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
+/.claude/*.local.*
 /fastagent.secrets.yaml
 /.env
 /fast-agent.log

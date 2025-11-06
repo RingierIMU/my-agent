@@ -33,7 +33,7 @@ uv sync
 
 Run the agent with:
 ```bash
-uv run fast-agent
+uv run agent.py
 ```
 
 This will start the agent, which will interact with you via the command line.
@@ -58,9 +58,6 @@ This will start the agent, which will interact with you via the command line.
 
 # hints
 
-- Bash tool - Fast-agent can execute bash commands natively, start the agent with `-x`:
-```bash
-uv run fast-agent -x
 ```
 - Fast-Agent website has an [llms.txt](https://fast-agent.ai/llms.txt) file that will help your AI understand how it works and how to write code for it.
 
