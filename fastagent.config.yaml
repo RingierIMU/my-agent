@@ -50,5 +50,5 @@ mcp:
       command: "uvx"
       args: ["mcp-server-fetch"]
     desktop-commander:
-      command: "npx"
-      args: ["-y", "@wonderwhy-er/desktop-commander@latest"]
+      command: "node"
+      args: ["node_modules/@wonderwhy-er/desktop-commander/dist/index.js"]
