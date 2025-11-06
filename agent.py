@@ -16,7 +16,11 @@ The current date is {{currentDate}}."""
 
 
 # Define the agent
-@fast.agent(instruction=default_instruction)
+@fast.agent(
+    name="agent",
+    instruction=default_instruction,
+    servers=["fetch", "desktop-commander"],
+)
 async def main():
     # use the --model command line switch or agent arguments to change model
     async with fast.run() as agent:
