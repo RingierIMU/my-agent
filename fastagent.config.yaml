@@ -49,9 +49,6 @@ mcp:
     fetch:
       command: "uvx"
       args: ["mcp-server-fetch"]
-    filesystem:
-      command: "npx"
-      args: ["-y", "@modelcontextprotocol/server-filesystem", "."]
     huggingface:
       url: "https://huggingface.co/mcp?login"
     desktopcommander:
