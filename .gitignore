@@ -10,3 +10,4 @@ wheels/
 .venv
 
 /fastagent.secrets.yaml
+/.env

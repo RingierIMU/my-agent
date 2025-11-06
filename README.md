@@ -63,3 +63,24 @@ This will start the agent, which will interact with you via the command line.
 uv run fast-agent -x
 ```
 - Fast-Agent website has an [llms.txt](https://fast-agent.ai/llms.txt) file that will help your AI understand how it works and how to write code for it.
+
+# claude code
+
+If you want to use Claude Code, follow installation instructions [here](https://claude.com/product/claude-code).
+
+Then copy the .env.example file to .env:
+```bash
+cp .env.example .env
+```
+
+Then copy the key found in the #trac25-my-agent channel, paste it into .env file as:
+```
+ANTHROPIC_API_KEY=your_key_here
+```
+
+Then run claude with:
+```bash
+claude
+```
+
+Follow the prompts to interact with the agent.
